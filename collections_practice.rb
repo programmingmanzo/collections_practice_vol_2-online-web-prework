@@ -28,6 +28,9 @@ def first_wa(array)
   end
 end
 
+def first_wa(array)
+  
+
 def remove_non_strings(array)
   array.delete_if do |word|
     word.is_a?(String) == false  
