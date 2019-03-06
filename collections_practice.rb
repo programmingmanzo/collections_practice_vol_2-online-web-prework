@@ -30,9 +30,8 @@ end
 
 def first_wa(array)
   first_word_wa = []
-  array.all? do |word|
-    first_word_wa << word[0,2].start_with?("wa")
-    first_word_wa
+  array.collect do |word|
+    word[0,2].start_with?("wa")
   end
 end
 
