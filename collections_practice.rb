@@ -22,11 +22,11 @@ def contain_a(array)
   end
 end
 
-def first_wa(array)
-  array.detect do |word|
-    word[0,2] == "wa"
-  end
-end
+#def first_wa(array)
+  #array.detect do |word|
+    #word[0,2] == "wa"
+  #end
+#end
 
 def first_wa(array)
   first_word_wa = []
