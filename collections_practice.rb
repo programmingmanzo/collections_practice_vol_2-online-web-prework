@@ -13,9 +13,7 @@ def begins_with_r(array)
     true 
   else 
     false
-  end
   i += 1
-end
 end
 
 
