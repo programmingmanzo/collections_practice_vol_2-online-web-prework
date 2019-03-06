@@ -68,8 +68,8 @@ end
 
 def organize_schools(array)
   location_hash = {}
-  array.collect {|a,b| location_hash[b[:location]] = []}
-  location_hash.each {|a,b| array.each {|a1,b1| if k == b1[:location] then b << a1 end}}
+  array.collect {|k,v| location_hash[v[:location]] = []}
+  location_hash.each {|k,v| array.each {|k1,v1| if k == v1[:location] then v << k1 end}}
 end
 
 
