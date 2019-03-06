@@ -17,10 +17,12 @@ end
 #contain_a methods:
 
 def contain_a(array)
-  array.select do |word|
+  array.collect do |word|
     word.include?("a")
   end
 end
+
+#first_wa methods:
 
 #def first_wa(array)
   #array.detect do |word|
