@@ -38,11 +38,18 @@ def first_wa(array)
 end
 
   
+#def remove_non_strings(array)
+  #array.delete_if do |word|
+  #  word.is_a?(String) == false  
+ # end
+#end
+
 def remove_non_strings(array)
-  array.delete_if do |word|
-    word.is_a?(String) == false  
+  array.keep_if do |word|
+    word.is_a?(String) == true 
   end
 end
+
 
 def count_elements(array)
   name_frequency = {}
