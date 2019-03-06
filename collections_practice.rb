@@ -14,8 +14,7 @@ end
 
   
 
-
-
+#contain_a methods:
 
 def contain_a(array)
   array.select do |word|
