@@ -7,7 +7,9 @@
 #end
 
 def begins_with_r(array)
-  array.
+  array.start_with?("r")
+end
+
   
 
 
