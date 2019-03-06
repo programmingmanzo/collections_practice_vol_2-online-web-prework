@@ -9,12 +9,15 @@
 def begins_with_r(array)
   i = 0 
   while i < array.length 
-  if array[i].start_with?("r")
+  if array.start_with?("r")
     true 
   else 
     false
   i += 1
 end
+end
+end
+
 
 
 
