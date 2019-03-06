@@ -17,7 +17,7 @@ end
 #contain_a methods:
 
 def contain_a(array)
-  array.collect do |word|
+  array.select do |word|
     word.include?("a")
   end
 end
